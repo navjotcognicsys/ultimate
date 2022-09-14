@@ -1,0 +1,107 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    package="com.todocode.ultimequiz">
+
+    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission
+        android:name="android.permission.ACCESS_WIFI_STATE"
+        tools:node="remove" />
+    <uses-permission android:name="android.permission.INTERNET" />
+    <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" />
+    <uses-permission
+        android:name="android.permission.WRITE_EXTERNAL_STORAGE"
+        tools:ignore="ScopedStorage" />
+    <uses-permission android:name="android.permission.VIBRATE" />
+    <uses-permission android:name="android.permission.BLUETOOTH" />
+    <uses-permission android:name="com.android.vending.BILLING" />
+
+    <application
+        android:name=".Managers.MyApplication"
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:roundIcon="@mipmap/ic_launcher_round"
+        android:screenOrientation="portrait"
+        android:supportsRtl="true"
+        android:theme="@style/Theme.UltimeQuiz"
+        android:usesCleartextTraffic="true">
+        <activity android:name=".Activities.CheckLanguageActivity">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Activities.CompletedQuestionsActivity" />
+        <activity android:name=".Activities.IncorrectAnswerActivity" />
+        <activity android:name=".Activities.CorrectAnswerActivity" />
+        <activity android:name=".Activities.AudioQuestionActivity" />
+        <activity android:name=".Activities.ImageQuestionActivity" />
+        <activity android:name=".Activities.TextQuestionActivity" />
+        <activity android:name=".Activities.QuizzesActivity" />
+        <activity android:name=".Activities.InstructionsActivity" />
+        <activity android:name=".Activities.MyStatisticsActivity" />
+        <activity android:name=".Activities.SingleCategoryActivity" />
+        <activity android:name=".Activities.AllCategoriesActivity" />
+        <activity android:name=".Activities.LeaderboardsActivity" />
+        <activity android:name=".Activities.LoadDataActivity" />
+        <activity android:name=".Activities.PlayerProfileActivity" />
+        <activity android:name=".Activities.InviteFriendsActivity" />
+        <activity android:name=".Activities.MyReferralsActivity" />
+        <activity android:name=".Activities.RequestWithdrawActivity" />
+        <activity android:name=".Activities.MyWithdrawsActivity" />
+        <activity android:name=".Activities.MyEarningsActivity" />
+        <activity android:name=".Activities.EditMyProfileActivity" />
+        <activity android:name=".Activities.MyProfileActivity" />
+        <activity android:name=".Activities.AudioQuestionsSetActivity" />
+        <activity android:name=".Activities.ImageQuestionsSetActivity" />
+        <activity android:name=".Activities.TextQuestionsSetActivity" />
+        <activity android:name=".Activities.QuizQuestionsTypeActivity" />
+        <activity android:name=".Activities.RegisterWithPhoneNumber" />
+        <activity android:name=".Activities.CompleteProfileActivity" />
+        <activity android:name=".Activities.ReferralCodeActivity" />
+        <activity android:name=".Activities.RandomCodeRegistrationActivity" />
+        <activity android:name=".Activities.RegisterWithEmailActivity" />
+        <activity android:name=".Activities.LoginWithEmailActivity" />
+        <activity android:name=".Activities.RegisterActivity" />
+        <activity android:name=".Activities.LoginActivity" />
+        <activity android:name=".Activities.PrivacyPolicyActivity" />
+        <activity android:name=".Activities.TermsOfUseActivity" />
+        <activity android:name=".Activities.SplashScreenActivity" />
+        <activity android:name=".Activities.WelcomeActivity" />
+        <activity android:name=".Activities.IntroPagesActivity">
+        </activity>
+        <activity android:name=".Activities.MainActivity" />
+
+        <meta-data
+            android:name="com.facebook.sdk.ApplicationId"
+            android:value="@string/facebook_app_id"
+            tools:replace="android:value" />
+
+        <activity
+            android:name="com.facebook.FacebookActivity"
+            android:configChanges="keyboard|keyboardHidden|screenLayout|screenSize|orientation"
+            android:label="@string/app_name" />
+        <activity
+            android:name="com.facebook.CustomTabActivity"
+            android:exported="true">
+            <intent-filter>
+                <action android:name="android.intent.action.VIEW" />
+
+                <category android:name="android.intent.category.DEFAULT" />
+                <category android:name="android.intent.category.BROWSABLE" />
+
+                <data android:scheme="@string/fb_login_protocol_scheme" />
+            </intent-filter>
+        </activity>
+
+        <meta-data
+            android:name="com.google.android.gms.ads.APPLICATION_ID"
+            android:value="ca-app-pub-3940256099942544~3347511713" />
+        <meta-data
+            android:name="com.startapp.sdk.APPLICATION_ID.RETURN_ADS_DISENABLED"
+            android:value="@string/startapp_app_id" />
+    </application>
+
+</manifest>

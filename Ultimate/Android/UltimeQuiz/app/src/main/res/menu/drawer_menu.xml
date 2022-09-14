@@ -1,0 +1,55 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    tools:showIn="navigation_view">
+    <group android:checkableBehavior="single">
+        <item android:id="@+id/home"
+            android:icon="@drawable/ic_home"
+            android:title="Home" />
+        <item android:id="@+id/profile"
+            android:icon="@drawable/ic_profile"
+            android:title="@string/drawer_menu_profile"/>
+        <item android:id="@+id/categories"
+            android:icon="@drawable/ic_categories"
+            android:title="@string/drawer_menu_categories"/>
+        <item android:id="@+id/leaderboards"
+            android:icon="@drawable/ic_leaderboards"
+            android:title="@string/drawer_menu_leaderboards"/>
+        <item android:id="@+id/statistics"
+            android:icon="@drawable/ic_statistics"
+            android:title="@string/drawer_menu_statistics"/>
+        <item android:id="@+id/invite_friends"
+            android:icon="@drawable/ic_invite_friends"
+            android:title="@string/drawer_menu_invite"/>
+        <item android:id="@+id/instructions"
+            android:icon="@drawable/ic_instructions"
+            android:title="@string/drawer_menu_instructions"/>
+        <item android:id="@+id/privacy_policy"
+            android:icon="@drawable/ic_privacy_policy"
+            android:title="@string/drawer_menu_privacy"/>
+        <item android:id="@+id/terms_of_use"
+            android:icon="@drawable/ic_terms"
+            android:title="@string/drawer_menu_terms"/>
+
+    </group>
+    <item android:title="Application">
+        <menu>
+            <item android:id="@+id/rate"
+                android:icon="@drawable/ic_rate"
+                android:title="@string/drawer_menu_rate"/>
+            <item android:id="@+id/share"
+                android:icon="@drawable/ic_share"
+                android:title="@string/drawer_menu_share"/>
+            <item android:id="@+id/report"
+                android:icon="@drawable/ic_report"
+                android:title="@string/drawer_menu_report"
+                />
+            <item android:id="@+id/contact_us"
+                android:icon="@drawable/ic_contact"
+                android:title="@string/drawer_menu_contact"/>
+            <item android:id="@+id/exit"
+                android:icon="@drawable/ic_exit"
+                android:title="@string/drawer_menu_exit"/>
+        </menu>
+    </item>
+</menu>

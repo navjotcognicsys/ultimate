@@ -1,0 +1,362 @@
+<resources xmlns:tools="http://schemas.android.com/tools">
+    <string name="app_name" translatable="false">Ultimate Quiz</string>
+    <string name="domain_name" translatable="false">http://192.168.43.170:8080</string>
+    <string name="api_secret_key" translatable="false">todocode</string>
+    <string name="admob_app_id" translatable="false">ca-app-pub-3940256099942544~3347511713</string>
+    <string name="startapp_app_id" translatable="false">205773214</string>
+
+    <!-- GOOGLE LOGIN-->
+    <string name="google_client_id" translatable="false" tools:ignore="TypographyDashes">865760447601-tbvrj2qvh5393a8jis09alrddlglpsdk.apps.googleusercontent.com</string>
+    <!-- FACEBOOK LOGIN-->
+    <string name="facebook_app_id" translatable="false">998722760869867</string>
+    <string name="fb_login_protocol_scheme" translatable="false">fb998722760869867</string>
+
+    <!-- Instructions Page -->
+    <string name="instructions_page" translatable="false"><![CDATA[
+<p>1/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>2/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>3/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>4/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>5/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>6/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>7/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>8/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>9/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+<p>10/ Lorem Ipsum is simply dummy text of the printing and typesetting industry. Lorem Ipsum has been the industry\'s standard dummy text ever since the 1500s, when an unknown printer took a galley of type and scrambled it to make a type specimen book.</p>
+]]></string>
+
+    <!-- Privacy Policy Page -->
+    <string name="privacy_policy_text" translatable="false"><![CDATA[ <p>Effective date: June 10, 2021</p>
+<p>Ultimate Quiz ("us", "we", or "our") operates the Quiz mobile application (the "Service").</p>
+<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
+<h2>Information Collection And Use</h2>
+<p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+<h3>Types of Data Collected</h3>
+<h4>Personal Data</h4>
+<p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
+<ul>
+<li>Cookies and Usage Data</li>
+</ul>
+<h4>Usage Data</h4>
+<p>When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data ("Usage Data").</p>
+<h4>Tracking & Cookies Data</h4>
+<p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+<p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
+<p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+<p>Examples of Cookies we use:</p>
+<ul>
+    <li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
+    <li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
+    <li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
+</ul>
+<h2>Use of Data</h2>
+<p>Currencies uses the collected data for various purposes:</p>
+<ul>
+    <li>To provide and maintain the Service</li>
+    <li>To notify you about changes to our Service</li>
+    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+    <li>To provide customer care and support</li>
+    <li>To provide analysis or valuable information so that we can improve the Service</li>
+    <li>To monitor the usage of the Service</li>
+    <li>To detect, prevent and address technical issues</li>
+</ul>
+<h2>Transfer Of Data</h2>
+<p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
+<p>If you are located outside Morocco and choose to provide information to us, please note that we transfer the data, including Personal Data, to Morocco and process it there.</p>
+<p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+<p>Quiz will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+<h2>Disclosure Of Data</h2>
+<h3>Legal Requirements</h3>
+<p>Quiz may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+<ul>
+    <li>To comply with a legal obligation</li>
+    <li>To protect and defend the rights or property of Currencies</li>
+    <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+    <li>To protect the personal safety of users of the Service or the public</li>
+    <li>To protect against legal liability</li>
+</ul>
+<h2>Security Of Data</h2>
+<p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+<h2>Service Providers</h2>
+<p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+<p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+<h2>Links To Other Sites</h2>
+<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+<h2>Children\'s Privacy</h2>
+<p>Our Service does not address anyone under the age of 18 ("Children").</p>
+<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+<h2>Changes To This Privacy Policy</h2>
+<p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+<p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
+<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+<h2>Contact Us</h2>
+<p>If you have any questions about this Privacy Policy, please contact us:</p>
+<ul>
+        <li>By email: todocode.inc@gmail.com</li>
+        </ul>]]></string>
+
+    <!-- Terms Of Use Page -->
+    <string name="terms_of_use_page" translatable="false"><![CDATA[ <p>Effective date: June 10, 2021</p>
+<p>Ultimate Quiz ("us", "we", or "our") operates the Quiz mobile application (the "Service").</p>
+<p>We use your data to provide and improve the Service. By using the Service, you agree to the collection and use of information in accordance with this policy. Unless otherwise defined in this Privacy Policy, terms used in this Privacy Policy have the same meanings as in our Terms and Conditions.</p>
+<h2>Information Collection And Use</h2>
+<p>We collect several different types of information for various purposes to provide and improve our Service to you.</p>
+<h3>Types of Data Collected</h3>
+<h4>Personal Data</h4>
+<p>While using our Service, we may ask you to provide us with certain personally identifiable information that can be used to contact or identify you ("Personal Data"). Personally identifiable information may include, but is not limited to:</p>
+<ul>
+<li>Cookies and Usage Data</li>
+</ul>
+<h4>Usage Data</h4>
+<p>When you access the Service by or through a mobile device, we may collect certain information automatically, including, but not limited to, the type of mobile device you use, your mobile device unique ID, the IP address of your mobile device, your mobile operating system, the type of mobile Internet browser you use, unique device identifiers and other diagnostic data ("Usage Data").</p>
+<h4>Tracking & Cookies Data</h4>
+<p>We use cookies and similar tracking technologies to track the activity on our Service and hold certain information.</p>
+<p>Cookies are files with small amount of data which may include an anonymous unique identifier. Cookies are sent to your browser from a website and stored on your device. Tracking technologies also used are beacons, tags, and scripts to collect and track information and to improve and analyze our Service.</p>
+<p>You can instruct your browser to refuse all cookies or to indicate when a cookie is being sent. However, if you do not accept cookies, you may not be able to use some portions of our Service.</p>
+<p>Examples of Cookies we use:</p>
+<ul>
+    <li><strong>Session Cookies.</strong> We use Session Cookies to operate our Service.</li>
+    <li><strong>Preference Cookies.</strong> We use Preference Cookies to remember your preferences and various settings.</li>
+    <li><strong>Security Cookies.</strong> We use Security Cookies for security purposes.</li>
+</ul>
+<h2>Use of Data</h2>
+<p>Currencies uses the collected data for various purposes:</p>
+<ul>
+    <li>To provide and maintain the Service</li>
+    <li>To notify you about changes to our Service</li>
+    <li>To allow you to participate in interactive features of our Service when you choose to do so</li>
+    <li>To provide customer care and support</li>
+    <li>To provide analysis or valuable information so that we can improve the Service</li>
+    <li>To monitor the usage of the Service</li>
+    <li>To detect, prevent and address technical issues</li>
+</ul>
+<h2>Transfer Of Data</h2>
+<p>Your information, including Personal Data, may be transferred to — and maintained on — computers located outside of your state, province, country or other governmental jurisdiction where the data protection laws may differ than those from your jurisdiction.</p>
+<p>If you are located outside Morocco and choose to provide information to us, please note that we transfer the data, including Personal Data, to Morocco and process it there.</p>
+<p>Your consent to this Privacy Policy followed by your submission of such information represents your agreement to that transfer.</p>
+<p>Quiz will take all steps reasonably necessary to ensure that your data is treated securely and in accordance with this Privacy Policy and no transfer of your Personal Data will take place to an organization or a country unless there are adequate controls in place including the security of your data and other personal information.</p>
+<h2>Disclosure Of Data</h2>
+<h3>Legal Requirements</h3>
+<p>Quiz may disclose your Personal Data in the good faith belief that such action is necessary to:</p>
+<ul>
+    <li>To comply with a legal obligation</li>
+    <li>To protect and defend the rights or property of Currencies</li>
+    <li>To prevent or investigate possible wrongdoing in connection with the Service</li>
+    <li>To protect the personal safety of users of the Service or the public</li>
+    <li>To protect against legal liability</li>
+</ul>
+<h2>Security Of Data</h2>
+<p>The security of your data is important to us, but remember that no method of transmission over the Internet, or method of electronic storage is 100% secure. While we strive to use commercially acceptable means to protect your Personal Data, we cannot guarantee its absolute security.</p>
+<h2>Service Providers</h2>
+<p>We may employ third party companies and individuals to facilitate our Service ("Service Providers"), to provide the Service on our behalf, to perform Service-related services or to assist us in analyzing how our Service is used.</p>
+<p>These third parties have access to your Personal Data only to perform these tasks on our behalf and are obligated not to disclose or use it for any other purpose.</p>
+<h2>Links To Other Sites</h2>
+<p>Our Service may contain links to other sites that are not operated by us. If you click on a third party link, you will be directed to that third party\'s site. We strongly advise you to review the Privacy Policy of every site you visit.</p>
+<p>We have no control over and assume no responsibility for the content, privacy policies or practices of any third party sites or services.</p>
+<h2>Children\'s Privacy</h2>
+<p>Our Service does not address anyone under the age of 18 ("Children").</p>
+<p>We do not knowingly collect personally identifiable information from anyone under the age of 18. If you are a parent or guardian and you are aware that your Children has provided us with Personal Data, please contact us. If we become aware that we have collected Personal Data from children without verification of parental consent, we take steps to remove that information from our servers.</p>
+<h2>Changes To This Privacy Policy</h2>
+<p>We may update our Privacy Policy from time to time. We will notify you of any changes by posting the new Privacy Policy on this page.</p>
+<p>We will let you know via email and/or a prominent notice on our Service, prior to the change becoming effective and update the "effective date" at the top of this Privacy Policy.</p>
+<p>You are advised to review this Privacy Policy periodically for any changes. Changes to this Privacy Policy are effective when they are posted on this page.</p>
+<h2>Contact Us</h2>
+<p>If you have any questions about this Privacy Policy, please contact us:</p>
+<ul>
+        <li>By email: todocode.inc@gmail.com</li>
+        </ul>]]></string>
+
+    <!-- Settings | Don't Change This -->
+    <string name="ad_attribution" translatable="false">Ad</string>
+    <string name="my_preference" translatable="false">"IntroPref"</string>
+    <string name="my_preference_key" translatable="false">IntroPrefKey</string>
+    <string name="my_permissions" translatable="false">"todocode.com.Permissions"</string>
+    <string name="my_permissions_key" translatable="false">todocode.com.PermissionsKey</string>
+    <string name="navigation_drawer_open" translatable="false">Open navigation drawer</string>
+    <string name="navigation_drawer_close" translatable="false">Close navigation drawer</string>
+
+    <!-- Intro Pages -->
+    <string name="start">Start</string>
+    <string name="skip">Skip</string>
+    <string name="next">Next</string>
+    <string name="slider1_title">Welcome to our App</string>
+    <string name="slider1_description">Thank you for downloading our application, we hope you like it and you enjoy it.</string>
+    <string name="slider2_title">Choose a Category</string>
+    <string name="slider2_description">Choose a category between our big variety of categories, then choose a subcategory then a level to start.</string>
+    <string name="slider3_title">Answer to Questions</string>
+    <string name="slider3_description">Answer questions (text or images) to get points, and you can use your coins that will help you to get true answers.</string>
+    <string name="slider4_title">Collect more Points</string>
+    <string name="slider4_description">Collect and get points by answering to questions.</string>
+    <string name="slider5_title">Win Real Cash</string>
+    <string name="slider5_description">After reaching the minimum amount to withdraw, you can choose a payment method and request a withdrawal to get real money.</string>
+
+    <!-- Welcome Page -->
+    <string name="welcome_title">Start your adventure!</string>
+    <string name="welcome_description">Registration takes only 1 minute</string>
+    <string name="privacy_policy">Privacy policy</string>
+    <string name="terms_of_use">Terms of use</string>
+    <string name="toast_check_agree">Please agree with our terms</string>
+    <string name="agree_with_terms">I agree with</string>
+    <string name="sign_in">Sign in</string>
+    <string name="sign_up">Sign up</string>
+    <string name="getting_started">Getting Started</string>
+    <string name="agree_our_privacy">Please agree with our terms!</string>
+    <string name="welcome_back">Welcome back!</string>
+    <string name="missed">"You've been missed"</string>
+    <string name="google">Login with Google</string>
+    <string name="facebook">Login with Facebook</string>
+    <string name="otp">Login with Phone N°</string>
+    <string name="email">Login with Email</string>
+    <string name="no_account">"Don't have an account ?"</string>
+    <string name="sign_up_here">Sign up here</string>
+    <string name="sign_here">Login here</string>
+    <string name="create_account">Create Account</string>
+    <string name="register_message">Registration is free and easy</string>
+    <string name="reg_google">Register with Google</string>
+    <string name="reg_facebook">Register with Facebook</string>
+    <string name="reg_otp">Register with Phone N°</string>
+    <string name="reg_email">Register with Email</string>
+    <string name="login_email_hint">Enter Your Email</string>
+    <string name="login_pw_hint">Enter Your Password</string>
+    <string name="login_phone_hint">Enter Your Phone Number</string>
+    <string name="forget_pass">Forget Password ?</string>
+    <string name="send_otp">Send OTP Code</string>
+    <string name="verify_otp">Verify OTP Code</string>
+    <string name="otp_verification">OTP Code Verification</string>
+    <string name="otp_verification_message">OTP Code may take some seconds to be sent! Please be patient</string>
+    <string name="new_member">New Member ?</string>
+    <string name="login">Login</string>
+    <string name="register">Register</string>
+    <string name="username">Choose a username</string>
+    <string name="already_member">Already Member ?</string>
+    <string name="enter_verification_code">Enter verification code</string>
+    <string name="validate">Validate</string>
+    <string name="continue_registration">Account validation</string>
+    <string name="verification_code">Please enter the verification code below to complete your registration!</string>
+    <string name="email_exists">A Player with this email already exists!</string>
+    <string name="email_blocked">This email is Blocked!</string>
+    <string name="not_empty">This field can not be empty!</string>
+    <string name="valid_email">Please enter a valid email!</string>
+    <string name="valid_password">Password can not be empty!</string>
+    <string name="verification_not_correct">Verification code is not correct!</string>
+    <string name="blocked">Email considered as SPAM and blocked now!</string>
+    <string name="avoid_robots">Verify that you are not a robot!</string>
+    <string name="registered">Registered successfully!</string>
+    <string name="referral">Referral code</string>
+    <string name="enter_referral">Enter referral code</string>
+    <string name="skip_it">Skip</string>
+    <string name="next_it">Next</string>
+    <string name="login_success">Login Success!</string>
+    <string name="one_device">Only 1 Device per account is allowed!</string>
+    <string name="referral_code_success">Referral code added successfully!</string>
+    <string name="referral_code_duplication">Referral code duplicated!</string>
+    <string name="referral_code_not_correct">Referral code does not exist!</string>
+    <string name="referral_code_not_correct_times">Referral code not correct for the 3th time!</string>
+    <string name="referral_msg">If you have a referral code, enter it here to get a bonus points!</string>
+    <string name="step_mandatory">This step is mandatory to verify that you are a human and not a robot and to protect application from spam users!</string>
+    <string name="enter_facebook">Enter your facebook link</string>
+    <string name="enter_twitter">Enter your twitter link</string>
+    <string name="enter_insta">Enter your instagram link</string>
+    <string name="save_info">Save Info</string>
+    <string name="complete_profile">Complete Profile</string>
+    <string name="image_changed">Image changed successfully</string>
+    <string name="infos_saved">Info saved!</string>
+    <string name="no_records">This credentials does not match our records!</string>
+    <string name="logout">Logout</string>
+    <string name="drawer_menu_home">Home</string>
+    <string name="drawer_menu_profile">Profile</string>
+    <string name="drawer_menu_categories">Categories</string>
+    <string name="drawer_menu_leaderboards">Leaderboards</string>
+    <string name="drawer_menu_statistics">Statistics</string>
+    <string name="drawer_menu_invite">Invite Friends</string>
+    <string name="drawer_menu_instructions">Instructions</string>
+    <string name="drawer_menu_privacy">Privacy Policy</string>
+    <string name="drawer_menu_terms">Terms of use</string>
+    <string name="drawer_menu_rate">Rate this App</string>
+    <string name="drawer_menu_share">Share this App</string>
+    <string name="drawer_menu_report">Report a Bug</string>
+    <string name="drawer_menu_contact">Contact us</string>
+    <string name="drawer_menu_exit">Exit</string>
+    <string name="menu_report_a_bug">Report a Bug</string>
+    <string name="menu_report_a_bug_message">To report a bug or a problem in this application, Please contact us via Email\nThank You!</string>
+    <string name="really_exit">Do you really want to exit ?</string>
+    <string name="popular_categories">Trending Categories</string>
+    <string name="all">All</string>
+    <string name="best_players">Best Players</string>
+    <string name="continue_quizzes">Your Started Quiz</string>
+    <string name="recent_quiz">Recent Quiz</string>
+    <string name="options_rate">Rate us</string>
+    <string name="options_profile">Profile</string>
+    <string name="options_premium">Be premium</string>
+    <string name="text_questions">Text Questions</string>
+    <string name="images_questions">Image Questions</string>
+    <string name="audio_questions">Audio Questions</string>
+    <string name="questions_type">Questions Type</string>
+    <string name="mixed_questions">Mixed questions</string>
+    <string name="questions_list">Questions List</string>
+    <string name="my_profile">My Profile</string>
+    <string name="edit_my_profile">Edit Profile</string>
+    <string name="my_earnings">My Earnings</string>
+    <string name="my_withdrawals">My Withdrawals</string>
+    <string name="request_withdraw">Request Withdraw</string>
+    <string name="my_referrals">My Referrals</string>
+    <string name="invite_friends">Invite Friends</string>
+    <string name="member_since">Member since :</string>
+    <string name="edit_username">Edit username</string>
+    <string name="save">Save</string>
+    <string name="points">Points</string>
+    <string name="coins">Coins</string>
+    <string name="current_earnings">Current Earnings</string>
+    <string name="min_to_widthraw">Minimum to withdraw is :</string>
+    <string name="my_withdraws">My withdraws</string>
+    <string name="sent">Sent :</string>
+    <string name="available_amount">Available amount</string>
+    <string name="select_amount">Select amount to withdraw</string>
+    <string name="payment_info">Enter Your Payment Info (email, n° ...)</string>
+    <string name="current_points">CURRENT POINTS : </string>
+    <string name="less_than_min">Available amount is less than the Minimum to Withdraw!</string>
+    <string name="more_than_available">Entered Amount is more than the available!</string>
+    <string name="payment_info_required">Payment info are required!</string>
+    <string name="enter_valid_amount">Enter a valid amount!</string>
+    <string name="withdrawal_success">Withdraw Request sent succesfully!</string>
+    <string name="withdrawal_problem">Withdraw Request has not been sent!\nContact us for more info.</string>
+    <string name="invite_your_friends">Invite Your Friends</string>
+    <string name="share_code">Share Code</string>
+    <string name="earnings">Earnings</string>
+    <string name="referrals">Referrals</string>
+    <string name="player_profile">Player Profile</string>
+    <string name="all_categories">All Categories</string>
+    <string name="we_are_updating">We are updating data , Please wait!</string>
+    <string name="facebook_error">This Player Does Not Share His Facebook Account!</string>
+    <string name="twitter_error">This Player Does Not Share His Twitter Account!</string>
+    <string name="insta_error">This Player Does Not Share His Instagram Account!</string>
+    <string name="invite_your_friends_para">Make people register with your referral code and get free points.</string>
+    <string name="splash_connection_problem_title">Internet Problem</string>
+    <string name="splash_connection_problem_message">Connection not available, Cross check your internet connectivity and try again</string>
+    <string name="splash_connection_problem_retry">RETRY</string>
+    <string name="subcategories">Subcategories</string>
+    <string name="enough_coins">You don\'t have enough coins!</string>
+    <string name="cinq_cinq_mode">50/50 option activated!</string>
+    <string name="true_answer">Congrats! It is a correct answer!</string>
+    <string name="correct_answer_title">Your Answer is Correct!</string>
+    <string name="incorrect_answer_title">Your Answer is False!</string>
+    <string name="back_to_list">Back to the questions list</string>
+    <string name="question_already_completed">This question is already completed</string>
+    <string name="audio_start">Audio Question Started!</string>
+    <string name="audio_pause">Audio Question Paused!</string>
+    <string name="audio_stop">Audio Question Stopped!</string>
+    <string name="played_quiz">Your Played Quizzes</string>
+    <string name="your_referrals">Your Referrals</string>
+    <string name="your_witdhraws">Your Withdraws</string>
+    <string name="completed_questions">Completed Questions</string>
+    <string name="hello">Hello</string>
+    <string name="your_earnings">Your Earnings :</string>
+    <string name="daily_quiz">Daily Quiz</string>
+
+    <!-- Claim daily reward Page -->
+    <string name="claim_reward_title">Your Daily Reward</string>
+    <string name="claim_reward_subtitle">Come back every 24h for new rewards</string>
+    <string name="claim">CLAIM</string>
+    <string name="reward_claimed">Reward Claimed!</string>
+</resources>

@@ -1,0 +1,346 @@
+<!DOCTYPE HTML PUBLIC "-//W3C//DTD HTML 4.01//EN" "http://www.w3.org/TR/html4/strict.dtd">
+<head lang="en">
+	<meta http-equiv="content-type" content="text/html;charset=utf-8">
+	<title>Ultimate Quiz App with Earning System - Documentation</title>
+	<!-- Framework CSS -->
+	<link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/css/bootstrap.min.css" integrity="sha384-GJzZqFGwb1QTTN6wy59ffF1BuGJpLSa9DkKMp0DgiMDm4iYMj70gZWKYbI706tWS" crossorigin="anonymous">
+	<link rel="stylesheet" href="assets/blueprint-css/screen.css" type="text/css" media="screen, projection">
+	<link rel="stylesheet" href="assets/blueprint-css/print.css" type="text/css" media="print">
+	<!--[if lt IE 8]><link rel="stylesheet" href="assets/blueprint-css/ie.css" type="text/css" media="screen, projection"><![endif]-->
+	<link rel="icon" href="assets/images/favicon.jpg" sizes="16x16">
+	<link rel="stylesheet" href="assets/blueprint-css/plugins/fancy-type/screen.css" type="text/css" media="screen, projection">
+	<style type="text/css" media="screen">
+		p, table, hr, .box { margin-bottom:25px; font-size: 14px;}
+		.box p { margin-bottom:10px; }
+		pre {
+	background: #272822;
+	color: white;
+	padding: 20px;
+	}
+	</style>
+</head>
+<body>
+	<div class="container">
+		
+		<h3 class="center alt">&ldquo;Ultimate Quiz App with Earning System&rdquo; Documentation by &ldquo;ToDoCode&rdquo; v1.0</h3>
+		
+		<hr>
+		
+		<h1 class="center">&ldquo;Ultimate Quiz App with Earning System&rdquo;</h1>
+		
+		<div class="borderTop">
+			<div class="span-6 colborder info prepend-1">
+				<p class="prepend-top">
+					<strong>
+					Created: 16/06/2021<br>
+					By: ToDoCode<br>
+					Email: <a href="mailto:todocode.inc@gmail.com">todocode.inc@gmail.com</a>
+					</strong>
+				</p>
+				</div><!-- end div .span-6 -->
+				
+				<div class="span-12 last">
+					<p class="prepend-top append-0">Thank you for purchasing my item. If you have any questions that are beyond the scope of this help file, please feel free to email via my user page contact form <a href="https://codecanyon.net/user/todocode">here</a>. Thanks so much!</p>
+				</div>
+				</div><!-- end div .borderTop -->
+				<hr>	
+				<p style="font-weight: bold; color: red; font-size: 18px; text-align: center;">If you want us to make all things works for you in 24 hours and give you your APK ready to publish on google play store, look at your Reskin Offer on image below.</p>
+				<img src="assets/images/reskin.png" width="100%">
+				<br>
+				<p style="font-weight: bold; font-size: 16px;">If you want to get our offer, just send us an email to : <span style="font-weight: bold;">todocode.inc@gmail.com</span> We are ready to collaborate with you.</p>
+				<br>
+					<hr>
+					
+					<h2 id="toc" class="alt">Documentation</h2>
+					<ol class="alpha">
+						<li><a href="#androidStudioDownload">Download Android Studio</a></li>
+						<li><a href="#androidStudioInstall">Install Android Studio</a></li>
+						<li><a href="#packageName">Change Package Name</a></li>
+						<li><a href="#appName">Change Application Name & Language</a></li>
+						<li><a href="#appIcon">Change Application Icon</a></li>
+						<li><a href="#appColors">Change Application Colors</a></li>
+						<li><a href="#admobIds">Admob and Facebook Ads Ids</a></li>
+						<li><a href="#contactEmail">Change Your Contact Email</a></li>
+						<li><a href="#domaineName">Change Api Domain Name</a></li>
+						<li><a href="#privacyPolicy">Change Privacy Policy Page</a></li>
+						<li><a href="#termsOfUse">Change Terms of use Page</a></li>
+						<li><a href="#facebookLogin">Config Facebook Login</a></li>
+						<li><a href="#googleLogin">Config Google Login</a></li>
+						<li><a href="#adminPanel">Install & Config Admin Panel</a></li>
+						<li><a href="#oneSignal">Configure One Signal Push Notifications</a></li>
+						<li><a href="#bulkUpload">How to Bulk Upload Text Questions</a></li>
+						<li><a href="#generateApk">Generate APK for Google Play</a></li>
+					</ol>
+					
+					<hr>
+					
+					<h3 id="androidStudioDownload"><strong>A) Download Android Studio</strong> - <a href="#toc">top</a></h3>
+					<p>To use this project you need to download Android studio on your computer, For that you need to visit this link <a href="https://developer.android.com/studio/" target="_blank">DOWNLOAD</a> or click button below</p>
+					<a style="text-decoration: none; margin-bottom: 10px;" class="btn btn-success btn-sm" href="https://developer.android.com/studio/" target="_blank">DOWNLOAD ANDROID STUDIO</a>
+					<br>
+					<hr>
+
+					
+					<h3 id="androidStudioInstall"><strong>B) Install Android Studio</strong> - <a href="#toc">top</a></h3>
+					<p>After Download the Android Studio you need to install it on your computer/Mac Check the video bellow and follow it step by step.</p>
+					<iframe width="100%" height="400" src="https://www.youtube.com/embed/0M1MtKu4TPE" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<br>
+					<hr>
+
+
+					<h3 id="packageName"><strong>D) Change Package Name</strong> - <a href="#toc">top</a></h3>
+					<p>Every Android Application on Google Play has a unique package name (unique id) , for this application too we need to use a unique package name , for that you need to choose a unique package name (ApplicationId) with three part for example : com.companyname.appname , now to change your package name follow the video below :</p>
+					<iframe width="100%" height="400" src="https://www.youtube.com/embed/bWCBLPArxnI" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<div style="background: #f73d3d; color: white; padding: 20px; border-radius: 5px;">
+						<h4 style="color: white; font-weight: bold; font-size:18px;">*Please note</h4>
+						<ul>
+							<li>The only special characters allowed on package name is underscore</li>
+							<li>Don't change the "com" part on package name</li>
+							<li>Google will not allow you to change the package name after publish the app on google play</li>
+						</ul>
+					</div>
+					<br>
+					<hr>
+
+
+					<h3 id="appName"><strong>E) Change Application Name & Language</strong> - <a href="#toc">top</a></h3>
+					<p>
+						To change the application name <br> Go to :
+						<div class="code-block">
+						<pre><code class="language-markup">Android App&gt;res&gt;values&gt;strings.xml</code></pre>
+						</div><!--//code-block-->
+						And change the application name there :
+						<div class="code-block">
+						<pre><code class="language-markup">&lt;string name="app_name"&gt;Your App Name &lt;/string&gt;</code></pre>
+						</div><!--//code-block-->
+					</p>
+					<p>
+						To change the application language <br> Go to :
+					<div class="code-block">
+						<pre><code class="language-markup">&lt;string name="lang"&gt;Your App Language &lt;/string&gt;</code></pre>
+					</div><!--//code-block-->
+					<ul>
+					<li>For English : en</li>
+					<li>For Hindi : hi</li>
+					<li>For Turkish : tr</li>
+					<li>For Arabic : ar</li>
+					</ul>
+					</p>
+
+					<br><hr>
+
+
+
+					<h3 id="appIcon"><strong>F) Change Application Icon</strong> - <a href="#toc">top</a></h3>
+					<p>
+						To change the application icon, Follow steps on images below :
+						<br>
+						<img src="assets/images/icon1.png" width="100%">
+						<br>
+						<img src="assets/images/icon2.png" width="100%">
+						<br>
+						<img src="assets/images/icon3.png" width="100%">
+						<p style="font-weight: bold;">** Choose icon in your comptuer and click open</p>
+						<br>
+						<img src="assets/images/icon4.png" width="100%">
+						<p style="font-weight: bold;">** Click Next</p>
+						<br>
+						<img src="assets/images/icon5.png" width="100%">
+						<p style="font-weight: bold;">** Click Finish</p>
+					</p>
+					<br>
+					<hr>
+
+
+					<h3 id="appColors"><strong>G) Change Application Colors</strong> - <a href="#toc">top</a></h3>
+					<p>
+						To change the application colors <br> Go to :
+						<div class="code-block">
+						<pre><code class="language-markup">Android App&gt;res&gt;values&gt;colors.xml</code></pre>
+						</div><!--//code-block-->
+						<p>And change the application colors here :</p>
+						<img src="assets/images/colors.png" width="100%">
+						
+					</p>
+					<br>
+					<hr>
+
+
+
+					<h3 id="admobIds"><strong>H) Change Admob Ids</strong> - <a href="#toc">top</a></h3>
+					<p>First put your admob app id here :</p>
+					<div class="code-block">
+						<pre><code class="language-markup">Android App&gt;res&gt;values&gt;strings.xml&gt;admob_app_id</code></pre>
+					<p>After generating your google admob Ids and Facebook Audience Network ids, just put them on Admin Panel exactly in Ads Management section as you can see on image below. And choose also adds type for every type of ad.</p>
+					<img src="assets/images/ads.png" width="100%">
+					<br>
+					<hr>
+
+
+					<h3 id="contactEmail"><strong>I) Change your Contact Email</strong> - <a href="#toc">top</a></h3>
+					<p>To change your Contact Email, Go to :</p>
+					<div class="code-block">
+					<pre><code class="language-markup">Android App&gt;res&gt;values&gt;strings.xml</code></pre>
+					</div><!--//code-block-->
+					<p>And put your email instead of mine</p>
+					<img src="assets/images/email.png" width="100%">
+					<br>
+					<hr>
+
+
+
+					<h3 id="domaineName"><strong>J) Change Api Domain Name</strong> - <a href="#toc">top</a></h3>
+					<p>To change Api Domain Name, Go to :</p>
+					<div class="code-block">
+					<pre><code class="language-markup">Android App&gt;res&gt;values&gt;strings.xml</code></pre>
+					</div><!--//code-block-->
+					<p>And put your domain name content here :</p>
+					<img src="assets/images/domain.png" width="100%">
+					<br>
+					<div style="background: #f73d3d; color: white; padding: 20px; border-radius: 5px;">
+						<h4 style="color: white; font-weight: bold; font-size:18px;">*Very Important</h4>
+						<ul>
+							<li>Your domain name should start with (http:// or https://)</li>
+							<li>Don't add (/) slash to end of the domain name.</li>
+						</ul>
+					</div>
+					<br>
+					<hr>
+
+
+					<h3 id="privacyPolicy"><strong>K) Change Privacy Policy Page</strong> - <a href="#toc">top</a></h3>
+					<p>To change Privacy Policy  page content, Go to :</p>
+					<div class="code-block">
+					<pre><code class="language-markup">Android App&gt;res&gt;values&gt;strings.xml</code></pre>
+					</div><!--//code-block-->
+					<p>And put your Privacy Policy  content here betwen [CDATA[ and ]]> :</p>
+					<img src="assets/images/privacy.png" width="100%">
+					<br>
+					<hr>
+
+
+					<h3 id="termsOfUse"><strong>L) Change Terms of use Page</strong> - <a href="#toc">top</a></h3>
+					<p>To change Terms of use  page content, Go to :</p>
+					<div class="code-block">
+					<pre><code class="language-markup">Android App&gt;res&gt;values&gt;strings.xml</code></pre>
+					</div><!--//code-block-->
+					<p>And put your Terms of use content here betwen [CDATA[ and ]]> :</p>
+					<img src="assets/images/terms.png" width="100%">
+					<br>
+					<hr>
+
+
+					<h3 id="facebookLogin"><strong>M) Configure Facebook Login</strong> - <a href="#toc">top</a></h3>
+					<h6>To Configure Facebook Login in your App, Watch the following video & Follow it step by step.</h6>
+					<br>
+					<iframe width="100%" height="400" src="https://www.youtube.com/embed/Ge2hhD3J16M" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="text-danger">The Website used in the video to generate hash key : <a target="_blank" ref="http://tomeko.net/online_tools/hex_to_base64.php">http://tomeko.net/online_tools/hex_to_base64.php</a> </p>
+					<p>After publishing your application in play store you will need a new hash key to make your facebook login works, Once your application is live in playstore, contact us at todocode.inc@gmail.com to help you.</p>
+					<br>
+					<hr>
+					<h3 id="googleLogin"><strong>N) Configure Google Login</strong> - <a href="#toc">top</a></h3>
+					<h6>To Configure Google Login in your App, Watch the following video & Follow it step by step.</h6>
+					<br><iframe width="100%" height="400" src="https://www.youtube.com/embed/v7eSxgaRSYY" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="text-danger">The Website used in the video to integrate google login : <a target="_blank"href="https://developers.google.com/identity/sign-in/android/start-integrating">https://developers.google.com/identity/sign-in/android/start-integrating</a> </p>
+					<p>After publishing your application in play store you will need a new SHA1 to make your google login works, Once your application is live in playstore, contact us at todocode.inc@gmail.com to help you.</p>
+					<br>
+					<hr>
+					<h3 id="adminPanel"><strong>O) Install & Config Admin Panel</strong> - <a href="#toc">top</a></h3>
+					<p>Now you need to setup your admin panel and that required a shared hosting or a vps server with cPanel & the requirement below</p>
+					<div style="background: #f73d3d; color: white; padding: 10px; border-radius: 5px;">
+						<h4 style="color: white; font-weight: bold; font-size:18px;">Server Requirements : </h4>
+						<ul>
+							<li>PHP >= 7.2.0</li>
+							<li>BCMath PHP Extension</li>
+							<li>Ctype PHP Extension</li>
+							<li>JSON PHP Extension</li>
+							<li>Mbstring PHP Extension</li>
+							<li>OpenSSL PHP Extension</li>
+							<li>PDO PHP Extension</li>
+							<li>Tokenizer PHP Extension</li>
+							<li>XML PHP Extension</li>
+						</ul>
+						<p>** Note that the majority of servers contains all these extensions!</p>
+					</div>
+					<br>
+					<h6>To Install & Configure Your Admin Panel, Watch the following video & Follow it step by step.</h6>
+					<br>
+					<iframe width="100%" height="400" src="https://www.youtube.com/embed/xtuSDeONyo0" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p>Please ignore the step related to .htaccess file ... I already add it in the project!</p>
+					<br>
+					<hr>
+
+
+					
+					<h3 id="oneSignal"><strong>Q) Configure One Signal</strong> - <a href="#toc">top</a></h3>
+					<p>To configure One Signal Notifications you will need :</p>
+					<ul>
+						<li>A OneSignal Account - Your OneSignal App ID, available in Keys & IDs</li>
+						<li>Google/Firebase Server API Key</li>
+					</ul>
+					<p>Please follow these steps to configure it successfully :</p>
+					<ul>
+						<li>1/ Go to this website <a href="https://onesignal.com/">OneSignal</a> choose your plan, and create OneSignal account.</li>
+						<li>2/ Get Firebase Server Key and Firebase Sender ID</li>
+						<p>Your Firebase Server Key and Firebase Sender ID are used to send push notifications to ANDROID Mobile App Devices. It is not required for Web Push on Android.</p>
+						<p>To begin, we'll obtain a Firebase Server Key and Firebase Sender ID. These keys allow OneSignal to use Google's web push services for your notifications.</p>
+						<img src="assets/images/firebase1.png" width="100%">
+						<img src="assets/images/firebase2.png" width="100%">
+						<img src="assets/images/firebase3.png" width="100%">
+						<img src="assets/images/firebase4.png" width="100%">
+					</ul>
+					<p>Then you need to add firebase to your application, to do that follow images below.</p>
+					<img src="assets/images/firebase5.png" width="100%">
+					<p>***** Click on Android Icon.</p>
+					<hr>
+					<img src="assets/images/firebase6.png" width="100%">
+					<p style="font-weight: bold;">Enter your app informations, then you will get a google-services.json file, that you should paste to your android application in the app root.</p>
+					<p>Now back to your OneSignal account and follow steps on images below.</p>
+					<img src="assets/images/firebase7.png" width="100%">
+					<img src="assets/images/firebase8.png" width="100%">
+					<p>Now the last and important step is to copy the OneSignal ID that you will get, and paste it on your application to replace the existing one, exactly in : Gradle Scripts --> build.gradle (Module:App). See image below</p>
+					<img src="assets/images/firebase9.png" width="100%">
+					<br>
+					<hr>
+					<h3 id="bulkUpload"><strong>Q) Bulk Upload Text Questions</strong> - <a href="#toc">top</a></h3>
+					<p>To bulk upload text questions via csv file, you will find in the folder you download from codecanyon a file named bulk-upload.csv as an exemple on how things should be.</p>
+					<p>Enter Questions 1 by 1 in each line like this</p>
+					<p>text question 2;TRUE answer 1;false answer 1;false answer 2;false answer 3;10;60;hint</p>
+					<p>And this is what each column means :</p>
+					<ul>
+						<li>Text Question</li>
+						<li>True Answer</li>
+						<li>False Answer 1</li>
+						<li>False Answer 2</li>
+						<li>False Answer 3</li>
+						<li>Points</li>
+						<li>Time in seconds</li>
+						<li>Hint</li>
+					</ul>
+					<br><hr>
+					<h3 id="generateApk"><strong>S) Generate APK For Google Play</strong> - <a href="#toc">top</a></h3>
+					<p>You can build two(*) versions of the app : </p>
+					<p>1. Debug : The debug version is for testing purpose ans is unoptimized.</p>
+					<p>2. Release : The release version on the other hand is optiomized, is signed with a key and is ready to publish on GooglePlay.</p>
+					<p>For the Debug version go to Build Menu and click on Build APK...After the process is finished Android Studio will show a prompt with link to the apk folder. Click on it. You’ll find the apk.</p>
+					<img src="assets/images/apk1.png" width="100%">
+					<p>To generate a Signed APK or release version click on the Signed APK and follow the steps. You’ll need a key store for this. Just follow the steps in the video below to generate a key and use it to build your app.</p>
+					<iframe width="100%" height="400" src="https://www.youtube.com/embed/UcMNm8PPGow" frameborder="0" allow="accelerometer; autoplay; encrypted-media; gyroscope; picture-in-picture" allowfullscreen></iframe>
+					<p class="text-danger">Remember for subsequent builds you’ll have to generate the signed apk with the same key. Otherwise you won’t be able to push that update to GooglePlay </p>
+					<br>
+					<hr>
+					
+					<p style="font-weight: bold; font-style: italic;">If you want to benefit from our Reskin Offer to configure your Facebook Login, Google Login, Admin Panel, Package name, Application name, Application icon, Colors, Admob ids, Email, Domain name, Privacy policy, Terms of use & Generate your APK & make it ready to publish on Google Play, Feel free to contact us via <a href="mailto:todocode.inc@gmail.com">todocode.inc@gmail.com</a> ! By the way we have a special offer for a limited time we do all that just for 35$.</p>
+					<p>Once again, thank you so much for purchasing this item from codecanyon. As I said at the beginning, I'd be glad to help you if you have any questions relating to this theme. No guarantees, but I'll do my best to assist. If you have a more general question relating to the items on CodeCanyon, you might consider visiting the forums and asking your question in the "Item Discussion" section.</p>
+					<p>If you are satisfied with our product, don't hesitate to give us 5 stars rating in Codecanyon to encourage us & to be one of our customers & also to give you discounts in our future products.</p>
+					
+					<p class="append-bottom alt large"><strong>ToDoCode</strong></p>
+					<p><a href="#toc">Go To Table of Contents</a></p>
+					
+					<hr class="space">
+					</div><!-- end div .container -->
+					<script src="https://code.jquery.com/jquery-3.3.1.slim.min.js" integrity="sha384-q8i/X+965DzO0rT7abK41JStQIAqVgRVzpbzo5smXKp4YfRvH+8abtTE1Pi6jizo" crossorigin="anonymous"></script>
+					<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.6/umd/popper.min.js" integrity="sha384-wHAiFfRlMFy6i5SRaxvfOCifBUQy1xHdJ/yoi7FRNXMRBu5WHdZYu1hA6ZOblgut" crossorigin="anonymous"></script>
+					<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.2.1/js/bootstrap.min.js" integrity="sha384-B0UglyR+jN6CkvvICOB2joaf5I4l3gm9GU6Hc1og6Ls7i6U/mkkaduKaBhlAXv9k" crossorigin="anonymous"></script>
+				</body>
+			</html>

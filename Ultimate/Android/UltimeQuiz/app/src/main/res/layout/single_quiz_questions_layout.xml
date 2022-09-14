@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.cardview.widget.CardView
+    xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    android:layout_width="match_parent"
+    android:layout_height="110dp"
+    android:layout_margin="5dp"
+    android:padding="5dp"
+    app:cardBackgroundColor="@color/secondary"
+    app:cardCornerRadius="8dp"
+    app:cardElevation="0dp">
+    <TextView
+        android:id="@+id/question_num"
+        android:textSize="32sp"
+        style="@style/RightFontFamilyStyle"
+        android:textStyle="bold"
+        android:gravity="center"
+        android:text="Q-1"
+        android:textColor="@color/white"
+        android:paddingStart="5dp"
+        android:paddingEnd="5dp"
+        android:layout_width="match_parent"
+        android:layout_height="110dp"/>
+</androidx.cardview.widget.CardView>

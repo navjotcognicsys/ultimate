@@ -1,0 +1,47 @@
+{
+  "project_info": {
+    "project_number": "865760447601",
+    "project_id": "ultime-quiz",
+    "storage_bucket": "ultime-quiz.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:865760447601:android:b97e8817dea29afba65fd0",
+        "android_client_info": {
+          "package_name": "com.todocode.ultimequiz"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "865760447601-jqfo9vqtm8glgj52j3qkoq1fcped2dtf.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.todocode.ultimequiz",
+            "certificate_hash": "6259721e95a2aacd2fad2328c381d1896e02bf5b"
+          }
+        },
+        {
+          "client_id": "865760447601-b87dmplsidmshc3lom7dj7pe76u2pc6u.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCVZ3FfmXCD0AjQflL_2CA4nrM8r9C81z8"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "865760447601-b87dmplsidmshc3lom7dj7pe76u2pc6u.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

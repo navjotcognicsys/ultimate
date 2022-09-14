@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="purple_200">#1AB1D0</color>
+    <color name="purple_500">#2E4259</color>
+    <color name="purple_700">#1A2A3B</color>
+    <color name="teal_200">#FF03DAC5</color>
+    <color name="teal_700">#FF018786</color>
+    <color name="black">#FF000000</color>
+    <color name="white">#FFFFFFFF</color>
+    <color name="dotsActive">#FFFAFA</color>
+    <color name="dotsInactive">#b2b2b2</color>
+    <!-- My Colors -->
+    <color name="dark">#1A2A3B</color>
+    <color name="secondary">#2E4259</color>
+    <color name="accent">#1AB1D0</color>
+    <color name="pending">#3E1AB1D0</color>
+    <color name="textSecondary">#C8CCCD</color>
+    <color name="graydark">#252525</color>
+    <color name="red">#75DC0101</color>
+    <color name="green">#6B02BC65</color>
+    <color name="lightGray">#EEEEEE</color>
+    <color name="accentOpacityDialog">#B3000000</color>
+    <color name="true_green">#02B52C</color>
+</resources>
